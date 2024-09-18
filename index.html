@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            margin-top: 10px;
+margin-left: 30px;
+            width: 65vw;
+height:80vh;
+display: grid;
+padding: 20px;
+
+grid-template-areas: 'area1 area2 area3''area1 area5 area6''area7 area5 area9';
+
+background-image: url("https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-4.1.0&rect=9%2C0%2C2994%2C1999&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+        }
+        
+            
+
+ .item1{
+            grid-area: area1;
+            width:20vw;
+            height: 270px; 
+        
+      
+        }
+        .item2{
+            grid-area: area2;
+        width:20vw;
+            height: 125px;
+        }
+        .item3{
+            grid-area:area3;
+            width:20vw;
+            height: 125px;
+}
+.item4{
+    grid-area:area4;
+    
+    height: 125px;
+} 
+.item5{
+    grid-area:area5;
+    width: 20vw;
+    height: 270px;
+}
+.item6{
+    grid-area:area6;
+    width: 20vw;
+    height: 125px;
+}
+.item7{
+    grid-area:area7;
+    width: 20vw;
+    height: 125px;
+}
+.item8{
+    grid-area:area8;
+    
+    height: 125px;
+}
+.item9{
+    grid-area:area9;
+    width: 20vw;
+    height: 125px;
+}
+marquee
+{
+    background-color: aqua;
+    font-size: 30px;
+    
+}
+
+  </style>
+</head>
+<body>
+    <marquee>layout using Grid Template Areas </marquee>
+    <div class="md">
+     <div class=" item item1"><img class="item1" src="https://images.unsplash.com/photo-1564507592333-c60657eea523?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/></div>
+     <div class=" item item2"><img class="item2" src="https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892506/EducationHub/photos/the-great-wall-of-china.jpg" /></div>
+     <div class=" item item3"><img class="item3" src="https://lp-cms-production.imgix.net/2019-06/16641625.jpg?w=1440&h=810&fit=crop&auto=format&q=75" /></div>
+     <!-- <div class=" item item4"><img class="item4" src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg"/></div> -->
+     <div class=" item item5"><img class="item5" src="https://ucatholic.com/wp-content/uploads/2021/09/a-63.jpg" /></div>
+     <div class=" item item6"><img class="item6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1200px-Colosseo_2020.jpg" /></div>
+     <div class=" item item7"><img class="item7" src="https://cenotefinder.com/wp-content/uploads/2019/01/Chichen-Itza-Cenote-Finder4.jpg" /></div>
+<!-- <div class=" item item8"><img class="item8" src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg"/></div> -->
+   <div class=" item item9"><img class="item9" src="https://cdn.britannica.com/88/189788-050-9B5DB3A4/Al-Dayr-Petra-Jordan.jpg"/></div> </div>
+</body>
+</html>
